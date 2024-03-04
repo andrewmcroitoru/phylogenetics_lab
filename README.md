@@ -4,7 +4,9 @@
  This following function computes the Jukes-Cantor distance, given the observed proportion of differences between two sequences: 
 
 ```R
-#' @param D Proportion of sites that differ between two sequences. Computed as the Levenshtein distance divided by the length of the sequence, 
+#' @param D Proportion of sites that differ 
+#' between two sequences. Computed as the Levenshtein 
+#' distance divided by the length of the sequence, 
 #' @returns d Jukes-Cantor distance between the sequences
 jcdist = function(D) { -3/4 * log(1-(4/3)*D) }
 ```
