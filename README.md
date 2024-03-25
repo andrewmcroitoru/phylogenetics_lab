@@ -39,7 +39,7 @@ The `primate_mtdna.fasta` file contains the complete mitochondrial genome sequen
 - Load the aligned sequences into R using the `Biostrings` package. How many columns are there in the multiple alignment?
 
 2.2. Build and compare distance-based trees (3 points)
-- Use the following code to use the `Biostrings` package to compute pairwise levenshtein distances. Then, build 2 trees: First, a UPGMA tree, built using the `BuildUPGMATree` function that you should implement. Next, a NJ tree, built using the `ape::nj` function (see below code).
+- Use the following code to use the `Biostrings` package to compute pairwise levenshtein distances. Then, build 2 trees: First, a UPGMA tree, built using the `BuildUPGMATree` function that you should implement. Finally, build a NJ tree, built using the `ape::nj` function (see below code). For the NJ tree, you may call the implementation of the function from the `ape` package, but I want you to implement the UPGMA algorithm yourself. Thus, if you simply call an external implementation, you will score 0 points for this question.
 
 ```R
 msa = Biostrings::readDNAMultipleAlignment("primate_mtdna_aligned.fasta", "fasta")
