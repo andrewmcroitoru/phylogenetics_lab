@@ -74,6 +74,6 @@ plot(njTree)
 
 In this section, we'll ramp up to a much larger phylogeny that will require running on the HPC. Use the '16s.fasta' dataset.
 
-3.1 Write a SLURM script to 1. align these sequences with mafft, then 2. use iqtree to find the most likely tree. Use 4 cores and 16 GB of memory, using the 'cobi' partition. Submit this job to rivanna. When you job completes, visualize your completed tree using the approach described above. (1 point)
+3.1 Write a SLURM script to 1. align these sequences with mafft, then 2. use iqtree to find the most likely tree. Use 4 cores and 16 GB of memory, using the 'cobi' partition. Submit this job to rivanna. When your job completes, visualize your completed tree using the approach described above. (1 point)
 
-3.2 Why might it make sense to use mtDNA for a phylogeny of primates, but 16S for a phylogeny of bacteria and archaea?
+3.2 Based on what you know about how evolutionary rates differ among different types of sequences, why do you think could be useful to use mtDNA for a phylogeny of primates, but 16S for a phylogeny of bacteria and archaea?
